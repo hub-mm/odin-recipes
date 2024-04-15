@@ -1,10 +1,19 @@
 /* index.css */
 
 * {
-    font-weight: 500px;
+    font: Monaco, 'Times New Roman', sand-serif;
+}
+
+.container {
+    background-color: lightcoral;
 }
 
 /* italian flag title - front page*/
+.t-green,
+.t-white,
+.t-red {
+    font-weight: bold;
+}
 .t-green {
     background-color: darkgreen;
 }
@@ -15,14 +24,24 @@
 .t-red {
     background-color: red;
 }
-.title {
-    
+.title { 
     border-style: solid;
     background-color: red;
 }
 /* italian flag title - front page */
 
 /* italian flag list - front page*/
+.recipes-list {
+    display: block;
+    text-align: left;
+    background-color: lightgrey;
+}
+.rl-green,
+.rl-white,
+.rl-red {
+    display: block;
+    background-color: lightgrey;
+}
 .rl-green {
     color: green;
 }
@@ -32,22 +51,23 @@
 .rl-red {
     color: red;
 }
-.recipes-list {
-    display: block;
-    text-align: left;
-    background-color: darkred;
-}
 /* italian flag list - front page*/
 
 /* outside container*/
-.container-green {
+.container.green {
     background-color: darkgreen;
+    border-style: solid;
+    border-color: black;
 }
-.container-white {
+.container.white {
     background-color: #ffffef;
+    border-style: solid;
+    border-color: black;
 }
-.container-red {
+.container.red {
     background-color: red;
+    border-style: solid;
+    border-color: black;
 }
 /* outside container*/
 
@@ -63,7 +83,6 @@
     text-decoration: none;
     background-color: white;
 }
-
 /* recipe-card */
 
 /* title underline */
@@ -85,22 +104,6 @@
 }
 /* text description */
 
-.footer {
-    text-align: left;
-}
-
-img {
-    width: auto;
-    height: 500px;
-}
-
-ul {
-    list-style: none;
-}
-li {
-    text-align: start;
-}
-
 /* ingredients + steps */
 ul h2,
 ol h2 {
@@ -121,3 +124,19 @@ h5 {
     text-decoration: underline;
 }
 /* image description */
+
+.footer {
+    text-align: left;
+}
+
+img {
+    width: auto;
+    height: 500px;
+}
+
+ul {
+    list-style: none;
+}
+li {
+    text-align: start;
+}
