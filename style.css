@@ -17,15 +17,18 @@
 
 /* title home page*/
 .home.title {
+    display: block;
     background-color: black;
     text-align: center;
     font-size: 50px;
     padding: 10px;
+    margin-top: 1px;
+    text-align: center;
 }
 .green,
 .white,
 .red {
-    padding: 5px;
+    padding: 5px 0;
 }
 .title.home .green {
     background-color: green;
@@ -34,6 +37,7 @@
 }
 .white {
     background-color: white;
+    padding: 5px 20px;
 }
 .red {
     background-color: red;
@@ -41,48 +45,6 @@
     padding-right: 150px;
 }
 /* title home page */
-
-
-/* top links */
-.link {
-    background-color: black;
-     margin: 1px 0;
-}
-.link.home {
-    color: white;
-    margin: 10px 5px;
-    padding: 0 20px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-.link.arrabbiata {
-    color: white;
-    background-color: black;
-    outline-style: solid;
-    outline-color: green;
-    margin: 10px 5px;
-    padding: 0 20px;
-    text-decoration: none;
-}
-.link.bolognese {
-    color: white;
-    background-color: black;
-    outline-style: solid;
-    outline-color: white;
-    margin: 10px 5px;
-    padding: 0 20px;
-    text-decoration: none;
-}
-.link.carbonara {
-    color: white;
-    background-color: black;
-    outline-style: solid;
-    outline-color: red;
-    margin: 10px 5px;
-    padding: 0 20px;
-    text-decoration: none;
-}
-/* top links */
 
 
 /* title arrabbiata */
@@ -118,6 +80,7 @@
     text-decoration: none;
     height: 50px;
     margin-bottom: 5px;
+    margin-top: 1px;
 }
 /* get your abc's down */
 
@@ -197,7 +160,65 @@
 .bckgrdclr {
     background-color: whitesmoke;
 }
+.bckgrdclr.dgreen {
+    border-style: solid;
+    border-color: darkgreen;
+    border-width: 5px;
+    margin-top: auto;
+}
+.bckgrdclr.dwhite {
+    border-style: solid;
+    border-color: grey;
+    border-width: 5px;
+    margin-top: auto;
+}
+.bckgrdclr.dred {
+    border-style: solid;
+    border-color: darkred;
+    border-width: 5px;
+    margin-top: auto;
+}
 
+/* top links */
+.link {
+    background-color: black;
+     margin-bottom: 1px;
+    }
+.link.home {
+    color: white;
+    margin: 10px 5px;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.link.arrabbiata {
+    color: white;
+    background-color: black;
+    outline-style: solid;
+    outline-color: green;
+    margin: 10px 5px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+.link.bolognese {
+    color: white;
+    background-color: black;
+    outline-style: solid;
+    outline-color: white;
+    margin: 10px 5px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+.link.carbonara {
+    color: white;
+    background-color: black;
+    outline-style: solid;
+    outline-color: red;
+    margin: 10px 5px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+/* top links */
 
 /* description and time info */
 .img-text {
@@ -217,7 +238,7 @@
     padding-bottom: 0;
     padding-right: 30px;
     margin-left: -1px;
-    margin-right: 35px;
+    margin-right: 25px;
     margin-bottom: -10px;
 }
 .inline.time, .green {
@@ -321,7 +342,7 @@ ol li {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 5px;
-    width: 1000px;
+    margin-bottom: 0px;
 }
 
 /*end text title page */
@@ -331,5 +352,6 @@ ol li {
     padding-top: 200px;
     padding-bottom: 500px;
     margin-top: 5px;
+    margin-bottom: 1px;
 }
 /*end text title page */
