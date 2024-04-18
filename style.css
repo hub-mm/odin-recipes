@@ -1,0 +1,335 @@
+/* style.css */
+
+
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+    font-family: 'Lucida Console', Monaco, 'Times New Roman';
+}
+
+.center {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* title home page*/
+.home.title {
+    background-color: black;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+}
+.green,
+.white,
+.red {
+    padding: 5px;
+}
+.title.home .green {
+    background-color: green;
+    color: white;
+    padding-left: 150px;
+}
+.white {
+    background-color: white;
+}
+.red {
+    background-color: red;
+    color: white;
+    padding-right: 150px;
+}
+/* title home page */
+
+
+/* top links */
+.link {
+    background-color: black;
+     margin: 1px 0;
+}
+.link.home {
+    color: white;
+    margin: 10px 5px;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.link.arrabbiata {
+    color: white;
+    background-color: black;
+    outline-style: solid;
+    outline-color: green;
+    margin: 10px 5px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+.link.bolognese {
+    color: white;
+    background-color: black;
+    outline-style: solid;
+    outline-color: white;
+    margin: 10px 5px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+.link.carbonara {
+    color: white;
+    background-color: black;
+    outline-style: solid;
+    outline-color: red;
+    margin: 10px 5px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+/* top links */
+
+
+/* title arrabbiata */
+.title.green {
+    background-color: green;
+    color: white;
+    padding: 25px;
+    margin-bottom: 1px;
+} 
+/* title arrabbiata */
+/* title bolognese */
+.title.white {
+    background-color: white;
+    color: black;
+    padding: 25px;
+    margin-bottom: 1px;
+} 
+/* title bolognese */
+/* title carbonara */
+.title.red {
+    background-color: red;
+    color: white;
+    padding: 25px;
+    margin-bottom: 1px;
+} 
+/* title carbonara */
+
+
+/* get your spaghetti abc's down */
+.sub-title {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    height: 50px;
+    margin-bottom: 5px;
+}
+/* get your abc's down */
+
+
+/* intro recipe card */
+.container.recipes {
+    width: 1000px;
+}
+.container.recipes h1 {
+    width: 326px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+.arrabbiata,
+.bolognese,
+.carbonara {
+    display: inline-block;
+    outline-style: solid;
+}
+.arrabbiata {
+    background-color: green;
+    color: white;
+    outline-style: solid;
+    outline-color: black;
+}
+.bolognese {
+    background-color: white;
+    color: black;
+}
+.carbonara {
+    background-color: red;
+    color: white;
+    outline-style: solid;
+    outline-color: black;
+}
+.space {
+    margin: 150px;
+}
+.space h3 {
+    text-transform: uppercase;
+}
+.total-time h3 {
+    text-transform: uppercase;
+}
+.space h2 {
+    font-size: 25px;
+    margin-top: 100px;
+}
+/* intro recipe card */
+
+
+/* recipe link */
+.black-l a {
+    color: black;
+    text-decoration: none;
+    border-style: solid;
+    padding: 5px 20px;
+}
+.white-l a {
+    color: white;
+    text-decoration: none;
+    border-style: solid;
+    padding: 5px 20px;
+}
+.darkgreen a {
+    background-color: darkgreen;
+}
+.darkgrey a {
+    background-color: darkgray;
+}
+.darkred a {
+    background-color: darkred;
+}
+/* recipe link */
+
+
+.bckgrdclr {
+    background-color: whitesmoke;
+}
+
+
+/* description and time info */
+.img-text {
+    display: flex;
+}
+.flex {
+    display: block;
+    text-align: left;
+    padding: 5px;
+    margin: 0;
+}
+.flex p {
+    margin-bottom: 10px;
+}
+.inline, .time {
+    align-items: stretch;
+    padding-bottom: 0;
+    padding-right: 30px;
+    margin-left: -1px;
+    margin-right: 35px;
+    margin-bottom: -10px;
+}
+.inline.time, .green {
+    background-color: green;
+    color: white;
+    padding-bottom: 0;
+}
+.inline.time, .white {
+    background-color: white;
+    color: black;
+    padding-bottom: 0;
+}
+.inline.time, .red {
+    background-color: red;
+    color: white;
+    padding-bottom: 0;
+}
+.inline {
+    display: flex;
+    flex-direction: row;
+}
+.time {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+#textedit {
+    text-decoration: underline;
+}
+.minutes {
+    margin-top: 80px;
+}
+.red .minutes {
+    margin-top: 25px;
+}
+/* description and time info */
+
+
+/* image description */
+.img-description {
+    text-align: left;
+    margin-bottom: 20px;
+}
+/* image description */
+
+
+/* ingredients + instructions */
+.row {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    align-content:space-between;
+}
+ul h2 {
+    text-decoration: underline;
+    width: 400px;
+    margin-bottom: 20px;
+}
+ul {
+    list-style-type: none;
+    text-align: left;
+    margin-top: 0;
+    line-height: 25px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+ul li:before {
+    content: "> ";
+}
+.ingredients {
+    border-style: solid;
+    border-width: 15px;
+    margin-bottom: auto;
+    padding-bottom: 10px;
+    width: 400px;
+}
+ol {
+    text-align: left;
+    width: 800px;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    font-weight: 800;
+}
+ol h2 {
+    text-decoration: underline;
+    margin-left: -30px;
+    margin-bottom: 10px;
+}
+ol li {
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+/* ingredients + instructions */
+
+.black-end {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 1000px;
+}
+
+/*end text title page */
+.endtext {
+    background-color: black;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 500px;
+    margin-top: 5px;
+}
+/*end text title page */
